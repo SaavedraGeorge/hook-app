@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Padre } from './component/tarea-memo/Padre';
+import { TodoApp } from './component/useReducer/TodoApp';
+// import { Padre } from './component/tarea-memo/Padre';
 // import { CallBack } from './component/useMemo/CallBack';
 // import { Layout } from './component/layout/Layout';
 // import { Memo } from './component/useMemo/Memo';
@@ -15,7 +16,7 @@ import { Padre } from './component/tarea-memo/Padre';
 
 ReactDOM.render(
 
-  <Padre />,
+  <TodoApp />,
 
   document.getElementById('root')
 );
