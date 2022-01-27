@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas <AppRouter /> should show componen 1`] = `
+<div>
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <a
+      aria-current="page"
+      className="navbar-brand active"
+      href="/"
+      onClick={[Function]}
+    >
+      Navbar
+    </a>
+    <div
+      className="collapse navbar-collapse"
+      id="navbarNav"
+    >
+      <ul
+        className="navbar-nav"
+      >
+        <li
+          className="nav-item active"
+        >
+          <a
+            aria-current="page"
+            className="nav-link active"
+            href="/"
+            onClick={[Function]}
+          >
+             Home 
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link"
+            href="/about"
+            onClick={[Function]}
+          >
+             About 
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link"
+            href="/login"
+            onClick={[Function]}
+          >
+             Login 
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div>
+    <h1>
+      Home
+    </h1>
+    <hr />
+    <pre>
+      {
+ "name": "jorge",
+ "email": "asd@asd.com"
+}
+    </pre>
+  </div>
+</div>
+`;
